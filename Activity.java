@@ -13,6 +13,6 @@ public class Activity {
 
     public void displayActivityInfo() {
         System.out.println("Duration: " + duration + " minutes");
-        System.out.println("Calories burned: " + calculateCaloriesBurned() + "cal");
+        System.out.println("Calories burned: " + calculateCaloriesBurned() + " cal");
     }
 }

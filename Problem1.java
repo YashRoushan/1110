@@ -18,7 +18,7 @@ public class Problem1 {
 
             System.out.println("Activity: Running");
             runningActivity.displayActivityInfo();
-            System.out.println("Calories Burned: " + runningActivity.calculateCaloriesBurned() + "cal");
+            System.out.println("Calories Burned: " + runningActivity.calculateCaloriesBurned() + " cal");
         }
         else if(activityType.equalsIgnoreCase("Weightlifting")){
             double weight = scanner.nextDouble();
@@ -28,7 +28,7 @@ public class Problem1 {
             System.out.println("Activity: WeightLifting");
             weightLiftingActivity.displayActivityInfo();
 
-            System.out.println("Calories Burned: " + weightLiftingActivity.calculateCaloriesBurned() + "cal");
+            System.out.println("Calories Burned: " + weightLiftingActivity.calculateCaloriesBurned() + " cal");
         }
         else{
             double distance = scanner.nextDouble();
@@ -39,7 +39,7 @@ public class Problem1 {
             System.out.println("Activity: Cycling");
             cycling.displayActivityInfo();
 
-            System.out.println("Calories Burned: " + cycling.calculateCaloriesBurned() + "cal");
+            System.out.println("Calories Burned: " + cycling.calculateCaloriesBurned() + " cal");
         }
     }
 }
