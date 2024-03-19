@@ -1,6 +1,5 @@
 class WeightLifting extends Activity {
 
-    private int duration;
     private double weight;
     private int reps;
 

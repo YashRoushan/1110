@@ -1,6 +1,5 @@
 class Cycling extends Activity {
 
-    private int duration;
     private double distance;
     private String terrain;
 
@@ -27,10 +26,10 @@ class Cycling extends Activity {
 
     public void displayActivityInfo() {
         System.out.println("Distance: " + this.distance + " kilometers");
-        System.out.println("Pace: " + calculatePace() + "km/min");
+        System.out.println("Pace: " + calculatePace() + " km/min");
     }
 
     public double calculatePace() {
-        return (distance*60.0 / (duration)) ;
+        return (distance * 60.0 / duration) ;
     }
 }
